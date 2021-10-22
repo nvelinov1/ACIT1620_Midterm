@@ -8,7 +8,7 @@
 }
 
 nav {
-  height: 15px;
+  height: 70px;
 }
 
 main {
@@ -56,4 +56,10 @@ img {
   background-color: #e22856;
   color: white;
   font-size: 50px;
+}
+
+.alttext {
+  font-size: 50px;
+  font-family: 'Quicksand', sans-serif;
+
 }
