@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-size: 10px;
+  background-color:  #F8F4E3;
 }
 
 nav {
@@ -12,14 +13,47 @@ nav {
 
 main {
   background-color: #F8F4E3
-  height: 100vh;
 }
 
 p {
   color: 2A2B2A;
-  fontsize: 1.8rem;
+  font-size: 1.8rem;
 }
 
 img {
   max-width: 400px;
+}
+
+.imgsize {
+  width: 250px;
+  position: relative;
+  left: 400px;
+  height:200px;
+  top: 70px;
+  margin:0px;
+}
+
+.textsize {
+  position: relative;
+  left: 650px;
+  margin: 5px;
+  Border: 2px solid black;
+  padding: 100px;
+  top:200%;
+  font-size: 20px;
+  height: 20px;
+  width:250px;
+  object-fit: contain;
+  font-family: 'Montserrat';
+  background-color: #e3b7b6;
+  margin:50px;
+  bottom: 200px;
+}
+
+.headersize {
+  padding:5px;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #e22856;
+  color: white;
+  font-size: 50px;
 }
